@@ -1,0 +1,48 @@
+.container {
+  text-align: center;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.logo {
+  height: 6em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #61dafb);
+}
+
+.card {
+  margin: 2rem 0;
+}
+
+button {
+  padding: 1em 2em;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background-color: #333;
+  border: none;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.read-the-docs {
+  color: #ccc;
+}
+
+.read-the-docs.small {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
